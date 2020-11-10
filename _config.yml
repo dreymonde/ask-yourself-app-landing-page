@@ -1,32 +1,32 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Oh Bother                                  # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # App Info
-ios_app_id                                : 1531322948                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_id                                : 1511197431                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 
 appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  : Ask Yourself Everyday                     # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 : Free                                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Track any aspect of your life and see how it changes.
+app_icon                                  : /assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name                                  : Oh Bother                                 # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_description                           : Work from home in peace. A tiny app for iPhone.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
 
 
 # Information About Yourself
-your_name                                 : Oleg Dreyman                                
-your_link                                 : https://dreyman.dev                     
-your_city                                 : San Francisco                                
-email_address                             : oleg@dreyman.dev
+your_name                                 : Daniel Gauthier                                
+your_link                                 : https://danielgauthier.me                     
+your_city                                 : Ottawa 🇨🇦                                
+email_address                             : danielgauthier.dev@gmail.com
 facebook_username                         :                                           
 instagram_username                        : 
-twitter_username                          : 
-github_username                           : dreymonde
+twitter_username                          : danielmgauthier
+github_username                           : danielmgauthier
 youtube_username                          :
 
 
@@ -34,41 +34,17 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : Don't get bothered.
+    description                           : With a few taps, let your housemates know whether or not you're botherable, give them some context, and put it on a timer to keep yourself on track.
+    fontawesome_icon_name                 : comment-slash
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Don't bother others.
+    description                           : View the status of your housemates at a glance, and catch them as soon as they're free by getting notified when statuses change.
+    fontawesome_icon_name                 : bell
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
-
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
-
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
-
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Do it all in style.
+    description                           : Oh Bother is designed from the ground up to feel playful and unique without throwing out what makes iOS great. Even the simplest apps can and should be a joy to use!
+    fontawesome_icon_name                 : palette
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
@@ -89,7 +65,7 @@ device_color                              : black                               
 
 body_background_color                     : "#ffffff"
 
-link_color                                : "#1d63ea"
+link_color                                : "#4379D3"
 
 app_title_color                           : "#ffffff"
 app_price_color                           : "#ffffff"
@@ -98,8 +74,8 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#4379D3"
+feature_icons_background_color            : "#E7ECF5"
 
 social_icons_foreground_color             : "#666666"
 social_icons_background_color             : "#e6e6e6"
